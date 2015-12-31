@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'update' ]
+2 info using npm@3.3.6
+3 info using node@v5.0.0
+4 silly mapToRegistry name undefined
+5 verbose stack AssertionError: 'undefined' == 'string'
+5 verbose stack     at npa (/usr/local/lib/node_modules/npm/node_modules/npm-package-arg/npa.js:40:10)
+5 verbose stack     at mapToRegistry (/usr/local/lib/node_modules/npm/lib/utils/map-to-registry.js:13:14)
+5 verbose stack     at shouldUpdate (/usr/local/lib/node_modules/npm/lib/outdated.js:340:3)
+5 verbose stack     at /usr/local/lib/node_modules/npm/lib/outdated.js:301:23
+5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:35
+5 verbose stack     at Array.forEach (native)
+5 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:52:11
+5 verbose stack     at Array.forEach (native)
+5 verbose stack     at asyncMap (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:51:8)
+5 verbose stack     at outdated_ (/usr/local/lib/node_modules/npm/lib/outdated.js:294:3)
+6 verbose cwd /Users/mohammadaziz/Desktop/projects/nodeauth
+7 error Darwin 15.0.0
+8 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "update"
+9 error node v5.0.0
+10 error npm  v3.3.6
+11 error 'undefined' == 'string'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
